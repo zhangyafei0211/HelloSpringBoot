@@ -9,6 +9,6 @@ public class HelloController {
 	@RequestMapping("/hello")
 	public String say(){
 		System.out.println("this is "+ this.getClass());
-		return "Hello SpringBoot!";
+		return "Hello SpringBoot !";
 	}
 }
